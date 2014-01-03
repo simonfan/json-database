@@ -1,0 +1,30 @@
+{
+  "name": "json-database",
+  "main": "./src/index",
+  "version": "0.0.0",
+  "description": "Database layer over json file directory",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonfan/json-database.git"
+  },
+  "dependencies": {
+    "q": "~0.9.7",
+    "lodash": "~2.4.1",
+    "subject": "~0.3.2",
+    "document-matcher": "~0.1.0",
+    "json-file": "git://github.com/simonfan/json-file.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-yuidoc": "~0.5.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "should": "~2.1.0",
+    "mocha": "~1.15.0",
+    "grunt-simple-mocha": "~0.4.0",
+    "mapo": "0.0.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}

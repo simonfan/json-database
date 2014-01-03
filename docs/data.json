@@ -1,0 +1,92 @@
+{
+    "project": {
+        "name": "json-database",
+        "version": "0.0.0"
+    },
+    "files": {
+        "src/find.js": {
+            "name": "src/find.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/index.js": {
+            "name": "src/index.js",
+            "modules": {
+                "JsonDatabase": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/query.js": {
+            "name": "src/query.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "JsonDatabase": {
+            "name": "JsonDatabase",
+            "submodules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/index.js",
+            "line": 5,
+            "description": "CJS module."
+        }
+    },
+    "classes": {},
+    "classitems": [
+        {
+            "file": "src/find.js",
+            "line": 5,
+            "description": "Returns a cursor object.",
+            "class": ""
+        },
+        {
+            "file": "src/index.js",
+            "line": 28,
+            "description": "Initializer",
+            "class": "",
+            "module": "JsonDatabase"
+        },
+        {
+            "file": "src/index.js",
+            "line": 37,
+            "description": "Proto properties.",
+            "class": "",
+            "module": "JsonDatabase"
+        },
+        {
+            "file": "src/query.js",
+            "line": 1,
+            "description": "queries are run against data.",
+            "class": "",
+            "module": "JsonDatabase"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "Missing item type\nReturns a cursor object.",
+            "line": " src/find.js:5"
+        },
+        {
+            "message": "Missing item type\nInitializer",
+            "line": " src/index.js:28"
+        },
+        {
+            "message": "Missing item type\nProto properties.",
+            "line": " src/index.js:37"
+        },
+        {
+            "message": "Missing item type\nqueries are run against data.",
+            "line": " src/query.js:1"
+        }
+    ]
+}
